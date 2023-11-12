@@ -18,7 +18,8 @@ const str = document.getElementById('strength');
         : '';
   
     str.innerHTML = strength;
-  
+    
+    //set the color of the border and the text based on the strength
     switch (strength) {
       case 'weak':
         pass.style.borderColor = 'red';
